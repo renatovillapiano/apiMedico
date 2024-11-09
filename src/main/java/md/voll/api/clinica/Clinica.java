@@ -17,6 +17,7 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(of = "id")
 public class Clinica {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
